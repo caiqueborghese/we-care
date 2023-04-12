@@ -1,0 +1,124 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 10px 0 100px 50px;
+}
+
+.link-header {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+
+
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    background: #ADFF00;
+    border-radius: 30px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        display: none;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    img {
+        margin: 149px 29px 30px 14px;
+        width: 354px;
+        height: 317px;
+    }
+
+    p {
+        display: none;
+    }
+    
+    h2 {
+        position: absolute;
+        width: 232px;
+        height: 37px;
+        margin: 0 79px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        
+    }
+    .button-main {
+        position: absolute;
+        width: 239px;
+        height: 64px;
+        margin: 70px 79px 133px 78px ;
+        background: #ADFF00;
+        border-radius: 20.5px;
+    }
+}
